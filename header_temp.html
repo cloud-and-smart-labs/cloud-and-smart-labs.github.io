@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> BDA 2024 - UOH </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+
+    }
+
+    .dropdown-item:hover {
+      background-color: maroon;
+    }
+
+    @media only screen and (max-width: 849px) {
+
+      .para {
+        font: 11px !important;
+      }
+
+      .carousel-caption {
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+      }
+
+      .carousel-image {
+        height: 100%px;
+        width: 100%;
+      }
+
+      .header-text {
+        font-size: 13px;
+        text-shadow: 2.2px 2.2px 5px black;
+      }
+
+      .header-main {
+        font-size: 15px;
+        text-shadow: 2.2px 2.2px 5px black;
+      }
+    }
+
+    @media only screen and (min-width: 850px) {
+
+      .para {
+        font: 11px !important;
+      }
+
+      .carousel-caption {
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+      }
+
+      .carousel-image {
+        height: 100%;
+        width: 100%;
+      }
+
+      .header-text {
+        font-size: 25px;
+        text-shadow: 4px 4px 5px black;
+      }
+
+      .header-main {
+        font-size: 30px;
+        text-shadow: 4px 4px 5px black;
+      }
+    }
+
+    .side-container {
+      position: absolute;
+      right: 10%;
+      left: 60%;
+    }
+
+    .bide-container {
+      position: absolute;
+      right: 45%;
+      left: 8%;
+    }
+
+    .abide-container {
+      right: 45%;
+      left: 8%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <img src="logopsd_blue.png" > -->
+  <nav class="navbar navbar-expand-md navbar-tag">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+    <!-- <div style="margin-left:30px;">
+      <img src="images/IoE-Combine-Logo.jpg" style="height:12vh; width:12vh;"/>
+    </div> -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav container unordered-list">
+        <!-- <li class="nav-item active">
+          <a class="nav-link" href="index.html" style="color: white!Important"> 
+             <span class="sr-only">(current)</span>
+          </a>
+        </li> -->
+        <li class="nav-item nav-list">
+          <a class="nav-link nav-link-tag" href="index.html" style="color: white!Important">Home 
+            <!-- <span class="sr-only">(current)</span> -->
+          </a>
+        </li>
+
+        <li class="nav-item nav-list">
+          <a class="nav-link nav-link-tag" href="committee.html" style="color: white!Important">Committees 
+            <!-- <span class="sr-only">(current)</span> -->
+          </a>
+        </li>
+
+        <li class="nav-item nav-list">
+          <a class="nav-link nav-link-tag" href="#" style="color: white!Important">Speakers</a>
+        </li>
+        <!-- <li class="nav-item nav-list">
+          <a class="nav-link nav-link-tag" href="#" style="color: white!Important">Accepted Papers</a>
+        </li> -->
+        <li class="nav-item nav-list dropdown">
+          <a class="nav-link nav-link-tag dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" style="color: white!Important">
+            Calls For
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"
+            style=" background-color: maroon!Important; ">
+            <a class="dropdown-item" href="#" style="color: white!Important">Call For Research Papers</a>
+            <a class="dropdown-item" href="#" style="color: white!Important">Call For Tutorials</a>
+            <a class="dropdown-item" href="#" style="color: white!Important">Call For Workshops</a>
+          </div>
+        </li>
+        <li class="nav-item nav-list dropdown">
+          <a class="nav-link nav-link-tag dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" style="color: white!Important">
+            Downloads
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"
+            style="background-color: maroon!Important; ">
+            <a class="dropdown-item" target="_blank" href="#" style="color: white!Important">Call For
+              Participation - PDF</a>
+            <a class="dropdown-item" target="_blank" href="#" style="color: white!Important">Call For
+              Participation - TXT</a>
+            <a class="dropdown-item" target="_blank" href="#"
+              style="color: white!Important">Call For Papers - PDF</a>
+            <a class="dropdown-item" target="_blank" href="#"
+              style="color: white!Important">Call For Papers - TXT</a>
+
+            <!-- <a class="dropdown-item" href="committee.html#Organizing-Committee" style="color: white!Important">Organizing Committee</a> -->
+          </div>
+        </li>
+        <li class="nav-item nav-list">
+          <a class="nav-link nav-link-tag" href="#" style="color: white!Important">Important Dates</a>
+        </li>
+        <li class="nav-item nav-list">
+          <a class="nav-link nav-link-tag" href="#" style="color: white!Important">Program Schedule</a>
+        </li>
+        <li class="nav-item nav-list">
+          <a class="nav-link nav-link-tag" href="#" style="color: white!Important">Workshops</a>
+        </li>
+        <li class="nav-item nav-list">
+          <a class="nav-link nav-link-tag" href="#" style="color: white!Important">Registrations</a>
+        </li>
+        <li class="nav-item nav-list">
+          <a class="nav-link nav-link-tag" href="#" style="color: white!Important">Participation</a>
+        </li>
+        <li class="nav-item nav-list">
+          <a class="nav-link nav-link-tag" href="#" style="color: white!Important">Venue
+            <!-- <span class="sr-only">(current)</span></a> -->
+          </a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="index.html" style="color: white!Important"> 
+            <span class="sr-only">(current)</span>
+          </a>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+
+</body>
+
+</html>

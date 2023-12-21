@@ -1,0 +1,63 @@
+  .carousel-inner img {
+      width: 100%;
+      height: 600px;
+  }
+
+  .dropdown-item:hover {
+    background-color: maroon;
+  }
+
+  .navbar-tag {
+      display:block !important;
+      background-color: #044497;
+      text-align: center;
+      margin: 0px !important;
+      border-radius: 0px !important;
+  }
+
+  .nav-link-tag {
+    padding: 0px !important;
+  }
+
+  #navbarNav {
+    font-weight: bold;
+    margin-top: 15px;
+    vertical-align: middle;
+  }
+
+  .unordered-list {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .nav-list {
+    margin-right: 10px;
+  }
+
+  @media only screen and (max-width: 720px) {
+      body {
+        font-size: 38px;
+      }
+
+      .carousel-caption {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+      }
+
+      .carousel-image {
+        height: 100%;
+        width: 100%;
+    }}
+
+  @media only screen and (min-width: 721px) {
+
+      .carousel-caption {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+      }
+
+      .carousel-image {
+        height: 100%;
+        width: 100%;
+      }
+    }
